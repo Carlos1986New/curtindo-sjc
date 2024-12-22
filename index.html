@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curtindo SJC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <h1>Curtindo SJC</h1>
+  </header>
+
+  <!-- Conteúdo das abas -->
+  <div id="content">
+    <div id="inicio" class="tab-content">
+      <h2>Início</h2>
+      <p>Bem-vindo ao Curtindo SJC! Explore os melhores lugares da cidade.</p>
+    </div>
+    <div id="categorias" class="tab-content" style="display: none;">
+      <h2>Categorias</h2>
+      <p>Explore pontos turísticos, bares, cinemas, shoppings e muito mais.</p>
+    </div>
+    <div id="eventos" class="tab-content" style="display: none;">
+      <h2>Eventos</h2>
+      <p>Confira os eventos mais recentes de São José dos Campos.</p>
+    </div>
+  </div>
+
+  <!-- Menu fixo -->
+  <div class="menu">
+    <button onclick="showTab('inicio')">Início</button>
+    <button onclick="showTab('categorias')">Categorias</button>
+    <button onclick="showTab('eventos')">Eventos</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
